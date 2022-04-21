@@ -22,6 +22,7 @@ public class ListaEmpresasServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// pegou o banco de dados ...
 		Banco banco = new Banco();
+		//
 	    List<Empresa> lista = banco.getEmpresas();
 
 	    request.setAttribute("empresas", lista);
