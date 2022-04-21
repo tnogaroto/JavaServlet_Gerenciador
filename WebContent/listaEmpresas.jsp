@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Lista de empresas222: <br />
+	Lista de empresa: <br />
 	<ul>
 	<%
 		List<Empresa> lista = (List<Empresa>)request.getAttribute("empresas");
